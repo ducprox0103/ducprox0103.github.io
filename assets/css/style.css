@@ -541,7 +541,7 @@ html{
     tabled 740 -1024px
 */
 /* pc */
-@media (min-width: 1024px){
+@media (min-width:  64em){
 
 }
 /* tablet */
@@ -549,7 +549,7 @@ html{
 
 }
 /* mobile */
-@media (max-width: 740px){
+@media (max-width:  46.1875em){
    
     #header{
         overflow: hidden;
