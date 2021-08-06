@@ -550,6 +550,11 @@ html{
 }
 /* mobile */
 @media (max-width: 740px){
+   
+    #header{
+        overflow: hidden;
+    }
+   
     #header .search-icon{
         display: none;
     }
@@ -564,11 +569,20 @@ html{
 
     #nav li{
         display: block;
+    } 
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav li{
+        padding: 4px 0
     }
 
-
-    #header{
-        overflow: hidden;
+    #nav .subnav a{
+        color: white;
+        padding: 0px 40px;
     }
 
     #mobile-menu{
